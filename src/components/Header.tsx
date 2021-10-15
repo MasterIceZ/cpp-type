@@ -8,7 +8,7 @@ interface Options {
 
 const options: Options = {
 	time: [15, 30, 45, 60],
-	theme: ["default", "dark", "light"],
+	theme: ["dark", "light"],
 };
 
 interface Props {
