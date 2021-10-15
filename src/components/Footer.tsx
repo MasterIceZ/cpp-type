@@ -9,14 +9,14 @@ export default class Footer extends Component {
 					<kbd>Tab</kbd> to restart test
 				</span>
 				<footer>
-					<a href="https://www.github.com/salmannotkhan/Typing-Test">
+					<a href="https://github.com/MasterIceZ/typing-test">
 						<span>&lt;/&gt;</span>
 						github
 					</a>
 					<span>
 						created by{" "}
-						<a href="https://www.github.com/salmannotkhan">
-							@salmannotkhan
+						<a href="https://www.github.com/MasterIceZ">
+							@MasterIceZ
 						</a>
 					</span>
 				</footer>

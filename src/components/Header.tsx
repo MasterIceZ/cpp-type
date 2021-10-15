@@ -55,7 +55,7 @@ export default class Header extends Component<Props> {
 		return (
 			<header>
 				<a href="." className="brand">
-					cplusplus-test
+					cplusplus-type
 				</a>
 				<div className="buttons">
 					{Object.entries(options).map(([option, choices]) => (
