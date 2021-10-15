@@ -1,6 +1,5 @@
 name: CI for screenshot
-on:
-  workflow_dispatch:
+on: push
 jobs:
   screenshot:
     name: Screenshot
