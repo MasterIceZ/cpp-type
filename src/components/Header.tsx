@@ -8,7 +8,7 @@ interface Options {
 
 const options: Options = {
 	time: [15, 30, 45, 60],
-	theme: ["default", "mkbhd", "coral", "ocean", "azure", "forest"],
+	theme: ["default", "dark", "light"],
 };
 
 interface Props {
@@ -55,7 +55,7 @@ export default class Header extends Component<Props> {
 		return (
 			<header>
 				<a href="." className="brand">
-					typing-test
+					cplusplus-test
 				</a>
 				<div className="buttons">
 					{Object.entries(options).map(([option, choices]) => (

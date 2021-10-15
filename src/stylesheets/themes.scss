@@ -1,34 +1,13 @@
-.mkbhd {
-	--bg-color: #171717 !important;
-	--font-color: #ededed !important;
-	--hl-color: #da0037 !important;
-	--fg-color: #444444 !important;
+.dark {
+    --bg-color: #002b36!important;
+    --font-color: #268bd2 !important;
+    --hl-color: #cb4b16 !important;
+    --fg-color: #b58900 !important;
 }
 
-.coral {
-	--bg-color: #fdd2bf !important;
-	--font-color: #df5e5e !important;
-	--hl-color: #492f10 !important;
-	--fg-color: #e98580 !important;
-}
-
-.ocean {
-	--bg-color: #dddddd !important;
-	--font-color: #125d98 !important;
-	--hl-color: #f5a962 !important;
-	--fg-color: #3c8dad !important;
-}
-
-.azure {
-	--bg-color: #383e56 !important;
-	--font-color: #eedad1 !important;
-	--hl-color: #f69e7b !important;
-	--fg-color: #d4b5b0 !important;
-}
-
-.forest {
-	--bg-color: #334443 !important;
-	--font-color: #fff8df !important;
-	--hl-color: #c6ffc1 !important;
-	--fg-color: #34656d !important;
+.light {
+    --bg-color: #fdf6e3!important;
+    --font-color: #2aa198 !important;
+    --hl-color: #b58900 !important;
+    --fg-color: #d33682 !important;
 }

@@ -30,19 +30,8 @@ export default class Result extends Component<Props> {
 							</td>
 						</tr>
 						<tr>
-							<th>Correct Words:</th>
-							<td>{result.filter((x) => x).length}</td>
-						</tr>
-						<tr>
-							<th>Incorrect Words:</th>
-							<td>{result.filter((x) => !x).length}</td>
-						</tr>
-						<tr>
-							<td colSpan={2} align="center">
-								<button onClick={this.props.resetTest}>
-									Restart
-								</button>
-							</td>
+							<th>Accuracy:</th>
+							<td>{Number(result.filter((x) => x).length * 100 / (result.filter((x) => x).length + result.filter((x) => !x).length)).toFixed(0)}</td>
 						</tr>
 					</tbody>
 				</table>
