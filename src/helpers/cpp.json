@@ -129,6 +129,8 @@
         "size",
         "strtok",
         "strstr",
-        "strcat"
+        "strcat",
+        "vector",
+        "empty"
     ]
 }
